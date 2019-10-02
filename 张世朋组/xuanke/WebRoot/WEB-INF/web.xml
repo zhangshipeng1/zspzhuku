@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logseverlet</servlet-name>
+    <servlet-class>com.severlet.logseverlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teacherlog</servlet-name>
+    <servlet-class>com.severlet.teacherlog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cookiesevlet</servlet-name>
+    <servlet-class>com.severlet.cookiesevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CookServlet</servlet-name>
+    <servlet-class>com.severlet.CookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>managerservlet</servlet-name>
+    <servlet-class>com.severlet.managerservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xuankeservlet</servlet-name>
+    <servlet-class>com.severlet.xuankeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>chakanxuanke</servlet-name>
+    <servlet-class>com.severlet.chakanxuanke</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>fenye</servlet-name>
+    <servlet-class>com.severlet.fenye</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>scorefenye</servlet-name>
+    <servlet-class>com.severlet.scorefenye</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sessionfenye</servlet-name>
+    <servlet-class>com.severlet.session</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectteacherfenye</servlet-name>
+    <servlet-class>com.severlet.selectteacherfenye</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>xuankeqingkuangservlet</servlet-name>
+    <servlet-class>com.severlet.xuankeqingkuangservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>course</servlet-name>
+    <servlet-class>com.severlet.course</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>teacherservlet</servlet-name>
+    <servlet-class>com.severlet.teacherservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>scoreservlet</servlet-name>
+    <servlet-class>com.severlet.scoreservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectprofessionservlet</servlet-name>
+    <servlet-class>com.severlet.teacher.selectprofessionservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>professionfenye</servlet-name>
+    <servlet-class>com.severlet.teacher.professionfenye</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteprofession</servlet-name>
+    <servlet-class>com.severlet.teacher.deleteprofession</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectscore</servlet-name>
+    <servlet-class>com.severlet.teacher.selectscore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectscorefenye</servlet-name>
+    <servlet-class>com.severlet.teacher.selectscorefenye</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>updatescorepage</servlet-name>
+    <servlet-class>com.severlet.teacher.updatescorepage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>enterscoreservlet</servlet-name>
+    <servlet-class>com.severlet.teacher.enterscoreservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectcourse</servlet-name>
+    <servlet-class>com.severlet.teacher.selectcourse1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>chengjifenye</servlet-name>
+    <servlet-class>com.severlet.teacher.chengjifenye</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>kechengshanchu</servlet-name>
+    <servlet-class>com.severlet.teacher.kechengshanchu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addcnoservlet</servlet-name>
+    <servlet-class>com.severlet.teacher.addcnoservlet</servlet-class>
+  </servlet>
+
+
+
+<servlet>
+    <servlet-name>showteacherservlet</servlet-name>
+    <servlet-class>com.severlet.showteacherservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addstudentservlet</servlet-name>
+    <servlet-class>com.severlet.addstudentservlet</servlet-class>
+  </servlet>
+	<servlet>
+    <servlet-name>addteacherservlet</servlet-name>
+    <servlet-class>com.severlet.addteacherservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showteacherfenyeservlet</servlet-name>
+    <servlet-class>com.severlet.showteacherfenyeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showstudentfenyeservlet</servlet-name>
+    <servlet-class>com.severlet.showstudentfenyeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showstudentservlet</servlet-name>
+    <servlet-class>com.severlet.showstudentservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showsessionservlet</servlet-name>
+    <servlet-class>com.severlet.showsessionservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showsessionfenyeservlet</servlet-name>
+    <servlet-class>com.severlet.showsessionfenyeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addsessionservlet</servlet-name>
+    <servlet-class>com.severlet.addsessionservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteteacherservlet</servlet-name>
+    <servlet-class>com.severlet.deleteteacherservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deletestudentservlet</servlet-name>
+    <servlet-class>com.severlet.deletestudentservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deletesessionservlet</servlet-name>
+    <servlet-class>com.severlet.deletesessionservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateteacherservlet</servlet-name>
+    <servlet-class>com.severlet.updateteacherservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updatestudentservlet</servlet-name>
+    <servlet-class>com.severlet.updatestudentservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updatesessionservlet</servlet-name>
+    <servlet-class>com.severlet.updatesessionservlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>enterscore</servlet-name>
+    <servlet-class>com.severlet.enterscore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deletescore</servlet-name>
+    <servlet-class>com.severlet.deletescore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectgrade</servlet-name>
+    <servlet-class>com.severlet.selectgrade</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>luruscore</servlet-name>
+    <servlet-class>com.severlet.luruscore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectgradefenyeservlet</servlet-name>
+    <servlet-class>com.severlet.selectgradefenyeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updatescore</servlet-name>
+    <servlet-class>com.severlet.updatescore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>teacherupdatescore</servlet-name>
+    <servlet-class>com.severlet.teacher.teacherupdatescore</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>addteacherservlet</servlet-name>
+    <url-pattern>/addteacherservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addstudentservlet</servlet-name>
+    <url-pattern>/addstudentservlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>showteacherservlet</servlet-name>
+    <url-pattern>/showteacherservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showteacherfenyeservlet</servlet-name>
+    <url-pattern>/showteacherfenyeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showstudentfenyeservlet</servlet-name>
+    <url-pattern>/showstudentfenyeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showstudentservlet</servlet-name>
+    <url-pattern>/showstudentservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showsessionservlet</servlet-name>
+    <url-pattern>/showsessionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showsessionfenyeservlet</servlet-name>
+    <url-pattern>/showsessionfenyeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addsessionservlet</servlet-name>
+    <url-pattern>/addsessionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteteacherservlet</servlet-name>
+    <url-pattern>/deleteteacherservlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>deletestudentservlet</servlet-name>
+    <url-pattern>/deletestudentservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletesessionservlet</servlet-name>
+    <url-pattern>/deletesessionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateteacherservlet</servlet-name>
+    <url-pattern>/updateteacherservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatestudentservlet</servlet-name>
+    <url-pattern>/updatestudentservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatesessionservlet</servlet-name>
+    <url-pattern>/updatesessionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>enterscore</servlet-name>
+    <url-pattern>/enterscore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletescore</servlet-name>
+    <url-pattern>/deletescore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectgrade</servlet-name>
+    <url-pattern>/selectgrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>luruscore</servlet-name>
+    <url-pattern>/luruscore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectgradefenyeservlet</servlet-name>
+    <url-pattern>/selectgradefenyeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatescore</servlet-name>
+    <url-pattern>/updatescore</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>logseverlet</servlet-name>
+    <url-pattern>/servlet/logseverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherlog</servlet-name>
+    <url-pattern>/servlet/teacherlog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cookiesevlet</servlet-name>
+    <url-pattern>/servlet/cookiesevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookServlet</servlet-name>
+    <url-pattern>/CookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>managerservlet</servlet-name>
+    <url-pattern>/servlet/managerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xuankeservlet</servlet-name>
+    <url-pattern>/ac/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chakanxuanke</servlet-name>
+    <url-pattern>/chakan/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fenye</servlet-name>
+    <url-pattern>/fenye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>scorefenye</servlet-name>
+    <url-pattern>/scorefenye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sessionfenye</servlet-name>
+    <url-pattern>/session</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectteacherfenye</servlet-name>
+    <url-pattern>/selectteacherfenye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xuankeqingkuangservlet</servlet-name>
+    <url-pattern>/xuankeqingkuangservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>course</servlet-name>
+    <url-pattern>/course</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherservlet</servlet-name>
+    <url-pattern>/teacherservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>scoreservlet</servlet-name>
+    <url-pattern>/scoreservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectprofessionservlet</servlet-name>
+    <url-pattern>/selectprofessionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>professionfenye</servlet-name>
+    <url-pattern>/professionfenye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteprofession</servlet-name>
+    <url-pattern>/deleteprofession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectscore</servlet-name>
+    <url-pattern>/selectscore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectscorefenye</servlet-name>
+    <url-pattern>/selectscorefenye</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>updatescorepage</servlet-name>
+    <url-pattern>/updatescorepage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>enterscoreservlet</servlet-name>
+    <url-pattern>/enterscoreservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectcourse</servlet-name>
+    <url-pattern>/selectcourse1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chengjifenye</servlet-name>
+    <url-pattern>/chengjifenye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>kechengshanchu</servlet-name>
+    <url-pattern>/kechengshanchu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addcnoservlet</servlet-name>
+    <url-pattern>/addcnoservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherupdatescore</servlet-name>
+    <url-pattern>/teacherupdatescore</url-pattern>
+  </servlet-mapping>
+   
+
+</web-app>
